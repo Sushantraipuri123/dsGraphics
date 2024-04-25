@@ -691,8 +691,35 @@
 .cid-tXxDrh2CLg .mbr-section-btn {
   text-align: left;
 }
+
+ .carousel-container {
+    max-height: 600px; /* Set a fixed height for the carousel container */
+    overflow: hidden; /* Hide overflow content */
+  }
+
+  .carousel-caption {
+    top: 380px; 
+    height:  fit-content;
+background: rgba(0, 0, 0, 0.3);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.7px);
+-webkit-backdrop-filter: blur(7.7px);
+border: 1px solid rgba(0, 0, 0, 0.3);
+
+
+  }
+
+  @media screen and (max-width: 425px) {
+    .carousel-container {
+    max-height: 300px; 
+    overflow: hidden; 
+  }
+
+  }
 </style>
-<section  class="header18 cid-tXxDrh2CLg mbr-fullscreen" data-bg-video="0&#x3D;1&amp;loop&#x3D;1&amp;playlist&#x3D;AOZZ-dGjpIo&amp;t&#x3D;20&amp;mute&#x3D;1&amp;playsinline&#x3D;1&amp;controls&#x3D;0&amp;showinfo&#x3D;0&amp;autohide&#x3D;1&amp;allowfullscreen&#x3D;true&amp;mode&#x3D;transparent" id="hero-15-tXxDrh2CLg">
+
+<!-- <section  class="header18 cid-tXxDrh2CLg mbr-fullscreen" data-bg-video="0&#x3D;1&amp;loop&#x3D;1&amp;playlist&#x3D;AOZZ-dGjpIo&amp;t&#x3D;20&amp;mute&#x3D;1&amp;playsinline&#x3D;1&amp;controls&#x3D;0&amp;showinfo&#x3D;0&amp;autohide&#x3D;1&amp;allowfullscreen&#x3D;true&amp;mode&#x3D;transparent" id="hero-15-tXxDrh2CLg">
   
   <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
   <div class="container-fluid">
@@ -711,7 +738,118 @@
   </div>
   
   
-</section>
+</section> -->
+
+<!-- <div class="carousel-container">
+  <div class="text-overlay">
+    <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1 animate__animated animate__delay-1s animate__fadeInUp">
+      <strong>Professional Printing</strong>
+    </h1>
+    <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7 animate__animated animate__delay-1s animate__fadeInUp">Discover the finest in high-quality, expedited printing services provided by professionals.</p>
+    <div class="mbr-section-btn">
+      <a class="btn btn-white-outline display-7 animate__animated animate__delay-1s animate__fadeInUp" href="#">Learn More</a>
+    </div>
+  </div>
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg?size=626&ext=jpg&ga=GA1.1.1369675164.1713139200&semt=sph" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://t3.ftcdn.net/jpg/02/70/35/00/360_F_270350073_WO6yQAdptEnAhYKM5GuA9035wbRnVJSr.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+<div class="carousel-container">
+
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://printo.in/blog/wp-content/uploads/2023/07/Screenshot-2023-07-19-151703.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>T-shirts Printing</h2>
+        <p>Participate in our exclusive design workshop and gain valuable insights into creating impactful print designs for your business.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="object-fit: contain;">
+      <img src="https://img.lovepik.com/desgin_photo/45000/5772_list.jpg!/fw/431/clip/0x300a0a0" style="object-fit: contain;" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Visiting Card Printing</h2>
+        <p> Print your Visiting cards according to your customization to increase your Business </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cms.cloudinary.vpsvc.com/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,t_productPageHeroGalleryTransformation_v2,w_auto/India%20LOB/Photo%20Gifts/Custom%20Mugs/IN_Custom-Mug_Hero-image_03
+      " class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Cup Printing</h2>
+        <p>Print your own designs, images, queots, patterns, logos on the cup</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>fourth slide label</h2>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630
+      " class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>fivth slide label</h2>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630
+      " class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Sixth slide label</h2>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630
+      " class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Seventh slide label</h2>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel--prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel- -next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden"></span>
+  </button>
+</div> 
+
+</div>  
+
 
     <style>
 .cid-tXxDrh2zmY {
@@ -886,9 +1024,9 @@
             <img src="https://pakfactory.com/blog/wp-content/uploads/2023/07/web-offset-printing-machine.jpg" alt="">
           </div>
           <div class="item-content">
-            <h5 class="item-title mbr-fonts-style display-5">
+            <h2 class="item-title mbr-fonts-style display-5">
               <strong>Offset Printing</strong>
-            </h5>
+            </h2>
            
             <p class="mbr-text mbr-fonts-style display-7">
               Premium offset printing for all of your commercial requirements. We can provide you with anything from brochures to business cards.
@@ -905,9 +1043,9 @@
             <img src="https://printify.com/wp-content/uploads/2021/08/Direct-to-Garment-Printing.jpg" alt="">
           </div>
           <div class="item-content">
-            <h5 class="item-title mbr-fonts-style display-5">
+            <h2 class="item-title mbr-fonts-style display-5">
               <strong>Digital Printing</strong>
-            </h5>
+            </h2>
             
             <p class="mbr-text mbr-fonts-style display-7">
               For your on-demand printing needs, we offer quick and effective digital printing services. Ideal for posters, flyers, and other materials.
@@ -923,9 +1061,9 @@
             <img src="https://printprint.ca/wp-content/uploads/2015/12/Canon-Inkjet-Printer-632x539.jpg" alt="">
           </div>
           <div class="item-content">
-            <h5 class="item-title mbr-fonts-style display-5">
+            <h2 class="item-title mbr-fonts-style display-5">
               <strong>Large Format Printing</strong>
-            </h5>
+            </h2>
             
             <p class="mbr-text mbr-fonts-style display-7">
               Use our large size printing options to make a significant impression. ideal for large-scale advertising materials such as banners and signage.
@@ -1332,9 +1470,9 @@
 			<div class="col-12 col-md-12 col-lg-10 m-auto">
 				<div class="content">
 					<div class="mbr-section-head align-left mb-5">
-						<h3 class="mbr-section-title mb-2 mbr-fonts-style display-2">
+						<h2 class="mbr-section-title mb-2 mbr-fonts-style display-2">
 							<strong>Frequently Asked Questions</strong>
-						</h3>
+						</h2>
 					</div>
 					<div id="bootstrap-accordion_0" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
 						<div class="card mb-3">
@@ -1463,16 +1601,16 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 mb-5 content-head">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <h2 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
                     <strong>Our Journey</strong>
-                </h3>
+                </h2>
             </div>
         </div>
         <div class="row justify-content-center item features-without-image active">
             <div class="col-12 col-md">
-                <h5 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-7">
+                <h2 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-7">
                     <strong>Establishment</strong>
-                </h5>
+                </h2>
                 <h6 class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3 display-7">2010</h6>
             </div>
             <div class="col-md-12 col-lg-8 item-wrapper mb-5">
@@ -1486,9 +1624,9 @@
         </div>
         <div class="row justify-content-center item features-without-image">
             <div class="col-12 col-md">
-                <h5 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-7">
+                <h2 class="mbr-card-title mbr-fonts-style mt-0 mb-3 display-7">
                     <strong>Expansion</strong>
-                </h5>
+                </h2>
                 <h6 class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3 display-7">2015</h6>
             </div>
             <div class="col-md-12 col-lg-8 item-wrapper mb-5">
@@ -1555,9 +1693,9 @@
       <div class="card col-md-12 col-lg-10">
         <div class="card-wrapper">
           <div class="card-content-text">
-            <h3 class="card-title mbr-fonts-style mbr-white mt-3 mb-4 display-2">
+            <h2 class="card-title mbr-fonts-style mbr-white mt-3 mb-4 display-2">
             <strong>Unleash Your Creativity</strong>
-          </h3>
+          </h2>
           <div class="row card-box align-left">
             <div class="item features-without-image col-12">
               <div class="item-wrapper">
@@ -1770,9 +1908,9 @@
       <div class="item features-without-image col-12 col-md-6 col-lg-4">
         <div class="item-wrapper">
           <div class="card-box align-left">
-            <h5 class="card-title mbr-fonts-style display-1">
+            <h2 class="card-title mbr-fonts-style display-1">
               <strong>100K+</strong>
-            </h5>
+            </h2>
             <p class="card-text mbr-fonts-style mb-3 display-7">
               Projects Completed
             </p>            
@@ -1782,9 +1920,9 @@
       <div class="item features-without-image col-12 col-md-6 col-lg-4">
         <div class="item-wrapper">
           <div class="card-box align-left">
-            <h5 class="card-title mbr-fonts-style display-1">
+            <h2 class="card-title mbr-fonts-style display-1">
               <strong>95%</strong>
-            </h5>
+            </h2>
             <p class="card-text mbr-fonts-style mb-3 display-7">
               Client Satisfaction
             </p>            
@@ -1794,9 +1932,9 @@
       <div class="item features-without-image col-12 col-md-6 col-lg-4">
         <div class="item-wrapper">
           <div class="card-box align-left">
-            <h5 class="card-title mbr-fonts-style display-1">
+            <h2 class="card-title mbr-fonts-style display-1">
               <strong>1M+</strong>
-            </h5>
+            </h2>
             <p class="card-text mbr-fonts-style mb-3 display-7">
               Printed Materials Produced
             </p>            
@@ -2087,9 +2225,9 @@
                         <img src="https://www.techmaish.com/wp-content/uploads/2018/04/Print-Quality-Photos.jpg" alt="Quality Prints" title="">
                     </div>
                     <div class="item-content align-left">
-                        <h5 class="item-title mbr-fonts-style mt-0 mb-2 display-5">
+                        <h2 class="item-title mbr-fonts-style mt-0 mb-2 display-5">
                             <strong>Quality Prints</strong>
-                        </h5>
+                        </h2>
                         <p class="mbr-text mbr-fonts-style mb-3 display-7">
                             Experience stunning quality with our advanced printing technologies.
                         </p>
@@ -2102,9 +2240,9 @@
                         <img src="https://previews.123rf.com/images/alexmillos/alexmillos1302/alexmillos130200637/17966660-fast-turnaround-meter-illustration-design-over-a-dark-background.jpg" alt="Fast Turnaround" title="" data-slide-to="1" data-bs-slide-to="1">
                     </div>
                     <div class="item-content align-left">
-                        <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
+                        <h2 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
                             <strong>Fast Turnaround</strong>
-                        </h5>
+                        </h2>
                         <p class="mbr-text mbr-fonts-style mb-3 display-7">
                             Get your prints delivered with speed and precision for your convenience.
                         </p>
@@ -2117,9 +2255,9 @@
                         <img src="https://www.e-arc.com/wp-content/webp-express/webp-images/uploads/2022/03/stationary-box-image.jpg.webp" alt="Custom Solutions" title="" data-slide-to="2" data-bs-slide-to="2">
                     </div>
                     <div class="item-content align-left">
-                        <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
+                        <h2 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
                             <strong>Custom Solutions</strong>
-                        </h5>
+                        </h2>
                         <p class="mbr-text mbr-fonts-style mb-3 display-7">
                             Tailored printing solutions to meet your unique business needs.
                         </p>
@@ -2280,9 +2418,9 @@
       <div class="item features-without-image col-12 col-md-6 col-lg-3 item-mb">
         <div class="item-wrapper">
           <div class="item-head">
-            <h5 class="item-title mbr-fonts-style mb-0 display-5">
+            <h2 class="item-title mbr-fonts-style mb-0 display-5">
               <strong>Basic</strong>
-            </h5>
+            </h2>
             <h6 class="item-subtitle mbr-fonts-style mt-0 mb-0 display-7">
               <strong>$29.99</strong>//month
             </h6>
@@ -2296,9 +2434,9 @@
       <div class="item features-without-image col-12 col-md-6 col-lg-3 item-mb">
         <div class="item-wrapper">
           <div class="item-head">
-            <h5 class="item-title mbr-fonts-style mb-0 display-5">
+            <h2 class="item-title mbr-fonts-style mb-0 display-5">
               <strong>Standard</strong>
-            </h5>
+            </h2>
             <h6 class="item-subtitle mbr-fonts-style mt-0 mb-0 display-7">
               <strong>$49.99</strong>//month
             </h6>
@@ -2312,9 +2450,9 @@
       <div class="item features-without-image col-12 col-md-6 col-lg-3 item-mb">
         <div class="item-wrapper">
           <div class="item-head">
-            <h5 class="item-title mbr-fonts-style mb-0 display-5">
+            <h2 class="item-title mbr-fonts-style mb-0 display-5">
               <strong>Premium</strong>
-            </h5>
+            </h2>
             <h6 class="item-subtitle mbr-fonts-style mt-0 mb-0 display-7">
               <strong>$79.99</strong>//month
             </h6>
@@ -2328,9 +2466,9 @@
       <div class="item features-without-image col-12 col-md-6 col-lg-3 item-mb">
         <div class="item-wrapper">
           <div class="item-head">
-            <h5 class="item-title mbr-fonts-style mb-0 display-5">
+            <h2 class="item-title mbr-fonts-style mb-0 display-5">
               <strong>Enterprise</strong>
-            </h5>
+            </h2>
             <h6 class="item-subtitle mbr-fonts-style mt-0 mb-0 display-7">
               <strong>Custom</strong>//month
             </h6>
@@ -2496,11 +2634,11 @@
   <div class="container-fluid">
     <div class="row mb-5 justify-content-center">
       <div class="col-12 content-head">
-        <h3
+        <h2
           class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"
         >
           <strong>Our Portfolio</strong>
-        </h3>
+        </h2>
       </div>
     </div>
     <div class="row">
@@ -2681,9 +2819,9 @@
     <div class="container">
         <div class="media-container-row">
             <div class="col-12">
-                <h3 class="mbr-section-title align-center mb-5 mbr-fonts-style display-2">
+                <h2 class="mbr-section-title align-center mb-5 mbr-fonts-style display-2">
                     <strong>Follow Us</strong>
-                </h3>
+                </h2>
                 <div class="social-list align-center">
                     <a class="iconfont-wrapper bg-facebook m-2 " target="_blank" href="#">
                         <span class="socicon-facebook socicon"></span>
@@ -2839,9 +2977,9 @@
       <div class="row justify-content-center">
           <div class="col-12 content-head">
               <div class="mbr-section-head mb-5">
-                  <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                  <h2 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
                       <strong>Get in Touch</strong>
-                  </h3>
+                  </h2>
               </div>
           </div>
       </div>
@@ -2926,9 +3064,9 @@
       <div class="row justify-content-center">
           <div class="col-12 content-head">
               <div class="mbr-section-head mb-5">
-                  <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                  <h2 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
                       <strong>Contact Us</strong>
-                  </h3>
+                  </h2>
               </div>
           </div>
       </div>
@@ -3103,9 +3241,9 @@
 	<div class="container">
 		<div class="row mbr-white">
 			<div class="col-12 col-md-6 col-lg-3">
-				<h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5">
+				<h2 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5">
 					<strong>About</strong>
-				</h5>
+				</h2>
 				<ul class="list mbr-fonts-style display-7">
 					<li class="mbr-text item-wrap"><a href="https://mobirise.com/" class="text-black">Company</a></li>
 					<li class="mbr-text item-wrap"><a href="https://mobirise.com/" class="text-black">Team</a></li>
@@ -3115,9 +3253,9 @@
 				</ul>
 			</div>
 			<div class="col-12 col-md-6 col-lg-3">
-				<h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5">
+				<h2 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5">
 					<strong>Services</strong>
-				</h5>
+				</h2>
 				<ul class="list mbr-fonts-style display-7">
 					<li class="mbr-text item-wrap"><a href="https://mobirise.com/" class="text-black">Offset Printing</a></li>
 					<li class="mbr-text item-wrap"><a href="https://mobirise.com/" class="text-black">Digital Printing</a></li>
@@ -3127,9 +3265,9 @@
 				</ul>
 			</div>
 			<div class="col-12 col-md-6 col-lg-3">
-				<h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5">
+				<h2 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5">
 					<strong>Contact</strong>
-				</h5>
+				</h2>
 				<ul class="list mbr-fonts-style display-7">
 					<li class="mbr-text item-wrap"><a href="https://mobirise.com/" class="text-black">Support</a></li>
 					<li class="mbr-text item-wrap"><a href="https://mobirise.com/" class="text-black">Sales</a></li>
@@ -3139,9 +3277,9 @@
 				</ul>
 			</div>
 			<div class="col-12 col-md-6 col-lg-3">
-				<h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5">
+				<h2 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5">
 					<strong>Legal</strong>
-				</h5>
+				</h2>
 				<ul class="list mbr-fonts-style display-7">
 					<li class="mbr-text item-wrap"><a href="https://mobirise.com/" class="text-black">Privacy Policy</a></li>
 					<li class="mbr-text item-wrap"><a href="https://mobirise.com/" class="text-black">Terms of Service</a></li>
@@ -3199,6 +3337,10 @@
   <script src="assets/formoid/formoid.min.js"></script>
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-Yvb3y/1Gsqb4P5Brvxjz9DnJUZ8Zj7XnkO4r4jcb9hvot3z9R3P4g8qHoGhnFGj6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-MlvMFiIka3sV4tew3Xgk1yScZ4zSytikVjVaKZoBwORjeEzVRBl5rFqq6H/6qzgm" crossorigin="anonymous"></script>
+
   
   <script>
 
@@ -3208,6 +3350,14 @@
       animationInput.setAttribute('type', 'hidden');
       document.body.append(animationInput);
     })();
+
+  </script>
+
+  <script>
+   $(document).ready(function(){
+    $('.carousel').carousel();
+});
+
 
   </script>
 </body>
